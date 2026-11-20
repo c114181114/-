@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的 GitHub 個人網站 - CSS 練習</title>
+  <style>
+    body {
+      color: #333333;
+      background-color: #f0f4f8;
+      font-family: "Microsoft JhengHei", sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #1e3a8a;
+      font-size: 36px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .notice {
+      background-color: #fef08a;
+      color: #854d0e;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+
+    p {
+      line-height: 1.8;
+    }
+    
+    .subtitle {
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>歡迎來到我的個人網頁</h1>
+  <p class="subtitle">這是我的 CSS 基礎樣式練習作品</p>
+
+  <div class="notice">
+    <strong>公告訊息：</strong> 這個區塊套用了自訂的 <code>.notice</code> 樣式，擁有獨立的背景色與文字顏色！
+  </div>
+
+  <h2>關於這個網站</h2>
+  <p>
+    透過在 <code>&lt;head&gt;</code> 標籤中加入 <code>&lt;style&gt;</code>，我可以輕鬆控制整個網頁的配色、字體大小與排版間距。這個網頁已經部署到 GitHub Pages 上，隨時都可以透過網址瀏覽。
+  </p>
+
+</body>
+</html>
